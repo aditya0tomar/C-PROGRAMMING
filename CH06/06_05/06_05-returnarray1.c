@@ -19,7 +19,7 @@ int main()
 
 	srand( (unsigned)time(NULL) );
 	puts("Here are your 5 random numbers:");
-	r = makearray();
+	r[5] = makearray();
 	for(x=0;x<5;x++)
 		printf("%d\n",r[x]);
 
